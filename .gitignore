@@ -1,0 +1,7 @@
+#modules
+/node_modules
+
+
+.vscode/*
+
+/config.json
