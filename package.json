@@ -16,7 +16,6 @@
     "distube": "^3.0.3",
     "ffmpeg-static": "^4.4.0",
     "libsodium-wrappers": "^0.7.9",
-    "node": "^16.6.0",
     "opusscript": "^0.0.8"
   }
 }
