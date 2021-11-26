@@ -7,6 +7,6 @@ module.exports = {
     name: "ping",
     alias :['ping'],
     execute(client, message, args){
-      message.reply("ping!")
+      message.reply("pong!")
     }
 }
