@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js" 
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -14,9 +14,10 @@
     "@discordjs/voice": "^0.7.5",
     "discord.js": "^13.3.1",
     "distube": "^3.0.3",
-    "node": "^16.6.0",
     "ffmpeg-static": "^4.4.0",
     "libsodium-wrappers": "^0.7.9",
+    "lyrics-finder": "^21.7.0",
+    "node": "^16.6.0",
     "opusscript": "^0.0.8"
   }
 }

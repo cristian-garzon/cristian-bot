@@ -14,7 +14,7 @@ module.exports = {
         ephemeral: true,
       });
     const embed = new MessageEmbed()
-      .setTitle("plailist")
+      .setTitle("playlist")
       .setDescription(
         "\n" +
           queue.songs
