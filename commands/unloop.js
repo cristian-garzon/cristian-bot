@@ -21,7 +21,7 @@ module.exports = {
         content: "no hay canciones reproduciendoce uwu",
         ephemeral: true,
       });
-    client.distube.setRepeatMode(message.member.voice.channel,2)
+    client.distube.setRepeatMode(message.member.voice.channel,0)
     message.reply("loop desactivado");
 
   },
