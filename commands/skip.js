@@ -21,7 +21,11 @@ module.exports = {
         content: "no hay canciones reproduciendoce uwu",
         ephemeral: true,
       });
-    client.distube.skip(message.member.voice.channel)
-    message.reply(`la canción ${queue.songs[0].name} ha sido skipeada por ${message.author.username}`);
+    if (!queue.autoplay && queue.songs.length <= 1)
+      return message.reply("solo hay una canción en la lista");
+    client.distube.skip(message.member.voice.channel);
+    message.reply(
+      `la canción ${queue.songs[0].name} ha sido skipeada por ${message.author.username}`
+    );
   },
 };
