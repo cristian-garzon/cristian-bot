@@ -1,0 +1,54 @@
+{
+  "station": [
+    {
+      "number": 1,
+      "name": "radio universidad nacional",
+      "mp3": "http://streaming.unradio.unal.edu.co:8012/;"
+    },
+    {
+      "number": 2,
+      "name": "tropicana",
+      "mp3": "https://18553.live.streamtheworld.com/TR_CALI.mp3"
+    },
+    {
+      "number": 3,
+      "name": "radio workout",
+      "mp3": "https://streams.ilovemusic.de/iloveradio23.mp3"
+    },
+    {
+      "number": 4,
+      "name": "la mega",
+      "mp3": "https://20823.live.streamtheworld.com/LA_MEGA_BOG.mp3"
+    },
+    {
+      "number": 5,
+      "name": "radio 1",
+      "mp3": "https://20823.live.streamtheworld.com/RADIO_1_BOG.mp3"
+    },
+    {
+      "number": 6,
+      "name": "la voz de jesucristo",
+      "mp3": "http://162.144.254.131:8010/yeshua"
+    },
+    {
+      "number": 7,
+      "name": "radio latino",
+      "mp3": "http://stream.laut.fm/1-radio-latino"
+    },
+    {
+      "number": 8,
+      "name": "radio delta - kpop",
+      "mp3": "https://streams.deltaradio.de/kpop/mp3-192/vtuner"
+    },
+    {
+      "number": 9,
+      "name": "BBC radio",
+      "mp3": "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_one"
+    },
+    {
+      "number": 10,
+      "name": "manantial stereo",
+      "mp3": "https://samuel.i-radio.co:8001/manantialstereo"
+    }
+  ]
+}
