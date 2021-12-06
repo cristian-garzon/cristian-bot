@@ -1,5 +1,7 @@
 # cristian-bot
 discord bot (testing)
+- voice
+  - [leave, L, l]
 - music bot
   - [play, p]
   - [queue, q]
@@ -9,4 +11,6 @@ discord bot (testing)
   - [pause]
   - [continue]
   - [skip]
+- radio bot
+  - [radio, r] "station"
 - confessions (to do)
