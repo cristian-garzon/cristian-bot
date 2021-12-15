@@ -6,6 +6,7 @@ const client = new Client({
 module.exports = {
   name: "unloop",
   alias: ["ul", "unrepeat"],
+  description: "si la lista está en bucle, lo desactivas",
   execute(client, message, args) {
     if (!message.member.voice.channel)
       return message.reply("tienes que estar en un voice chat");

@@ -7,6 +7,7 @@ const client = new Client({
 module.exports = {
   name: "play",
   alias: ["p"],
+  description: "busco y coloco la canción que quieras :D",
   execute(client, message, args) {
     const song = args.join(' ');
     if (!message.member.voice.channel)

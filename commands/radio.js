@@ -14,6 +14,7 @@ const client = new Client({
 module.exports = {
   name: "radio",
   alias: ["r", "R"],
+  description: "sintoniza la radio que desees :D",
   async execute(client, message, args) {
     if (!message.member.voice.channel)
       return message.reply("tienes que estar en un voice chat");

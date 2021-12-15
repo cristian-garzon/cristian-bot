@@ -10,18 +10,15 @@ const {
 const client = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES,Intents.FLAGS.GUILD_VOICE_STATES, 'GUILD_MESSAGE_REACTIONS'],
 });
+const {Commands} = require('./utilities/commands')
 const fs = require("fs");
 client.commands = new Collection();
 
 client.on("ready", () => {
   console.log("bot funcionndoo");
 });
-// creating module commands
-const commandfiles = fs
-  .readdirSync("./commands")
-  .filter((file) => file.endsWith(".js"));
 
-for (const file of commandfiles) {
+for (const file of Commands) {
   const command = require(`./commands/${file}`);
   client.commands.set(command.name, command);
 }

@@ -7,6 +7,7 @@ const client = new Client({
 module.exports = {
     name: "lyrics",
     alias :['ly'],
+    description: "busco la letra de la cancion que está sonando",
     async execute(client, message, args) {
         let page = [];
         let paginatos;

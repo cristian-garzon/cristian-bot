@@ -3,6 +3,7 @@ const { getVoiceConnection } = require("@discordjs/voice");
 module.exports = {
   name: "leave",
   alias: ["L", "l"],
+  description: "si estoy en un canal de voz me salgo",
   execute(client, message, args) {
     if (!message.member.voice.channel)
       return message.reply("tienes que estar en un voice chat");

@@ -6,6 +6,7 @@ const client = new Client({
 module.exports = {
     name: "ping",
     alias :['ping'],
+    description: "hago ping uwu",
     execute(client, message, args){
       message.reply("pong!")
     }

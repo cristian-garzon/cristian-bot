@@ -6,6 +6,7 @@ const client = new Client({
 module.exports = {
   name: "queue",
   alias: ["q"],
+  description: "muestra la lista de canciones que hay :3",
   execute(client, message, args) {
     const queue = client.distube.getQueue(message.member.voice.channel);
     if (!queue)

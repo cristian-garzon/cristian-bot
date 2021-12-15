@@ -6,6 +6,7 @@ const client = new Client({
 module.exports = {
   name: "continue",
   alias: ["c"],
+  description: "cantinua la canción que está sonando :3",
   execute(client, message, args) {
     if (!message.member.voice.channel)
       return message.reply("tienes que estar en un voice chat");
