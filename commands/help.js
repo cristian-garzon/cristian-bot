@@ -3,7 +3,7 @@ const {Client, MessageEmbed, Intents} = require('discord.js')
 const client = new Client({
     intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
 });
-const {prefix} = require('../config.json')
+const prefix = process.env.PREFIX
 const {Commands} = require('../utilities/commands')
 module.exports = {
     name: "help",

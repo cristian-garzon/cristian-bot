@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const { token, prefix } = require("./config.json");
 const {
   Intents,
   Client,
@@ -10,6 +9,8 @@ const {
 const client = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES,Intents.FLAGS.GUILD_VOICE_STATES, 'GUILD_MESSAGE_REACTIONS'],
 });
+const prefix = process.env.PREFIX
+const token = process.env.TOKEN
 const {Commands} = require('./utilities/commands')
 const fs = require("fs");
 client.commands = new Collection();
